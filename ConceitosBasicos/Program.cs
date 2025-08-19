@@ -8,11 +8,11 @@ decimal salario = decimal.Parse(Console.ReadLine());
 
 Console.WriteLine($"Seu nome é {nome} e seu salário é R${salario}");
 
-decimal faixa1 = 2259.20m; //se menor ou igual = isento
-decimal faixa2 = 2826.65m; //De 2.259,21 até 2.826,65: 7,5%
-decimal faixa3 = 3751.05m; //De 2.826,66 até 3.751,05: 15%
-decimal faixa4 = 4664.68m; //De 3.751,07 até 4.664,68: 22,5%
-decimal faixa5 = 4664.49m; //Acima de R$ 4.664,68: 27,5%
+decimal faixa1 = 2259.20m;
+decimal faixa2 = 2826.65m;
+decimal faixa3 = 3751.05m;
+decimal faixa4 = 4664.68m;
+decimal faixa5 = 4664.49m;
 
 
 if (salario <= faixa1)
