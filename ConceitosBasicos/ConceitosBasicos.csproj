@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="uteis\gdf\**" />
+    <EmbeddedResource Remove="uteis\gdf\**" />
+    <None Remove="uteis\gdf\**" />
+  </ItemGroup>
+
 </Project>
