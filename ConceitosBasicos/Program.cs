@@ -1,4 +1,5 @@
-﻿try
+﻿/*
+try
 {
     Console.WriteLine("Informe seu nome: ");
     string nome = Console.ReadLine();
@@ -30,3 +31,13 @@ catch (Exception e)
     Console.WriteLine("Ocorreu um erro. Contate o suporte técnico.");
     Console.WriteLine(e.StackTrace);
 }
+*/
+
+using ConceitosBasicos.uteis;
+
+SomaDoisNumeros somaDoisNumeros = new SomaDoisNumeros();
+int resultado = somaDoisNumeros.Somar(20, 22);
+Console.WriteLine(resultado);
+
+int milimetros = MetrosMilimetros.Converter(3);
+Console.WriteLine(milimetros);
