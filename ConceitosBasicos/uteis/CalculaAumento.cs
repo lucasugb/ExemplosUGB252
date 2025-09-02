@@ -8,7 +8,9 @@ namespace ConceitosBasicos.uteis
 {
     public class CalculaAumento
     {
-        public static int Medir(int peso, int altura);
-
+        public decimal Calcular(decimal salario, float percentual)
+        {
+            return salario * ((decimal)percentual / 100);
+        }
     }
 }

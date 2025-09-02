@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConceitosBasicos.uteis
 {
-    public class CalculaAumento
+    public class SomaDoisNumeros
     {
-        public decimal Calcular(decimal salario, float percentual)
+        public int Somar(int n1, int n2)
         {
-            return salario * ((decimal)percentual / 100);
+            return n1 + n2;
         }
     }
 }
