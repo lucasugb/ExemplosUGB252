@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConceitosBasicos.uteis
 {
-    public class IMC
+    public class CalculaAumento
     {
         public static int Medir(int peso, int altura);
 
