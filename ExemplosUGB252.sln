@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceitosBasicos", "ConceitosBasicos\ConceitosBasicos.csproj", "{ADB87AE2-9B7D-4763-AF2C-C24D87049D20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConceitosBasicos", "ConceitosBasicos\ConceitosBasicos.csproj", "{ADB87AE2-9B7D-4763-AF2C-C24D87049D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteConceitosBasicos", "TesteConceitosBasicos\TesteConceitosBasicos.csproj", "{B82D7F6A-27DB-43E0-A4B1-6646AAC97C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ADB87AE2-9B7D-4763-AF2C-C24D87049D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADB87AE2-9B7D-4763-AF2C-C24D87049D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADB87AE2-9B7D-4763-AF2C-C24D87049D20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82D7F6A-27DB-43E0-A4B1-6646AAC97C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82D7F6A-27DB-43E0-A4B1-6646AAC97C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82D7F6A-27DB-43E0-A4B1-6646AAC97C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82D7F6A-27DB-43E0-A4B1-6646AAC97C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
