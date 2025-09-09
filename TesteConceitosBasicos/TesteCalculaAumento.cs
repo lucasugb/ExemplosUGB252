@@ -11,21 +11,19 @@ namespace TesteConceitosBasicos
     public class TesteCalculaAumento
     {
         [TestMethod]
-        public void TestCalcular()
+        public void TesteCalcular()
         {
             //cenario
-            decimal salario = Convert.ToDecimal(Console.ReadLine());
-            float percentual = float.Parse(Console.ReadLine());
-            decimal aumento;
-            
-
-            CalculaAumento calculador = new CalculaAumento();
+            decimal salario = 1000;
+            float percentualAumento = 10;
+            decimal valorAumento;
+            CalculaAumento calculaAumento = new CalculaAumento();
 
             //ação
-            aumento = calculador.Calcular(salario, percentual);
+            valorAumento = calculaAumento.Calcular(salario, percentualAumento);
 
             //verificação
-            
+            Assert.AreEqual(100, valorAumento);
 
         }
     }
